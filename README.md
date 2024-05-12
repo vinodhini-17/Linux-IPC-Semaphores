@@ -22,14 +22,14 @@ Execute the C Program for the desired output.
 
 ## Write a C program that implements a producer-consumer system with two processes using Semaphores.
 
+````
 
-
-/*
- * sem.c  - demonstrates a basic producer-consumer
+     /*
+     * sem.c  - demonstrates a basic producer-consumer
  *                            implementation.              */
-#include <stdio.h>	 /* standard I/O routines.              */
-#include <stdlib.h>      /* rand() and srand() functions        */
-#include <unistd.h>	 /* fork(), etc.                        */
+    #include <stdio.h>	 /* standard I/O routines.              */
+   #include <stdlib.h>      /* rand() and srand() functions        */
+ #include <unistd.h>	 /* fork(), etc.                        */
 #include <time.h>	 /* nanosleep(), etc.                   */
 #include <sys/types.h>   /* various type definitions.           */
 #include <sys/ipc.h>     /* general SysV IPC structures         */
@@ -107,6 +107,7 @@ if(NUM_LOOPS>=10)    {
 	    break;
     }
     return 0;}
+`````
 ## OUTPUT
 ![image](https://github.com/vinodhini-17/Linux-IPC-Semaphores/assets/145742741/c4e7fb59-cd09-4ebd-b2ce-d80f33182d25)
 
