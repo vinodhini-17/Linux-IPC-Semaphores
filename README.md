@@ -16,7 +16,7 @@ Write the C Program using Linux Process API - Sempahores
 
 ### Step 3:
 
-Execute the C Program for the desired output. 
+Execute the C Program for the desired output. .
 
 # PROGRAM:
 
